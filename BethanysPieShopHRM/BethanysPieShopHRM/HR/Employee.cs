@@ -132,7 +132,6 @@ public class Employee: IEmployee
     public void PerformWork(int numberOfHours)
     {
         NumberOfHoursWorked += numberOfHours;
-        NumberOfHoursWorked++;
 
         Console.WriteLine($"{FirstName} {LastName} has worked for {numberOfHours} hour(s)!");
     }
